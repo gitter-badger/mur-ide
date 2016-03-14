@@ -1,0 +1,4 @@
+#ifndef IMAGERENDER_H
+#define IMAGERENDER_H
+
+#endif // IMAGERENDER_H

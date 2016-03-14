@@ -1,0 +1,37 @@
+QToolBar {
+    background: #464646;
+    spacing: 0px; /* spacing between items in the tool bar */
+    padding: 5px 5px;
+    border: 2px solid #464646;
+    border-top: 2px solid #464646;
+    border-bottom: 2px solid #464646;
+}
+
+QToolBar::item {
+   	
+}
+
+QToolBar  QToolButton {
+    padding: 3px 3px;
+    background: transparent;
+    border-radius: 0px;
+    icon-size: 20px 20px;
+    border: none;
+} 
+
+QToolBar QToolButton:hover {
+    background: #636363;
+}
+
+QToolBar QToolButton:pressed {
+    background: #888888
+}
+
+QToolBar::separator { 
+    background-color: qlineargradient(spread:pad, x1:0 y1:0, x2:1 y2:0, stop:0 #252525, stop:1 #636363);
+    width: 2; 
+    height: 30px; 
+    padding: 0; 
+    margin-left: 10px;
+    margin-right: 10px;
+}

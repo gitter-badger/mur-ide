@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/dark">
+        <file>styles/dock.css</file>
+        <file>styles/filemenu.css</file>
+        <file>styles/texteditscrollbar.css</file>
+        <file>styles/toolbar.css</file>
+    </qresource>
+</RCC>

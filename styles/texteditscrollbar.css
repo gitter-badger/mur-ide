@@ -1,0 +1,15 @@
+QScrollBar:horizontal {
+    background: #464646;
+    height: 15px;
+}
+QScrollBar::handle:horizontal {
+    background: #636363;
+}
+
+QScrollBar::sub-page:horizontal {
+    background: #464646;
+}
+
+QScrollBar::add-page:horizontal {
+    background: #464646;
+}
